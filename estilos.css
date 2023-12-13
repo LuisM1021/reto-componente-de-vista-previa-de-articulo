@@ -1,0 +1,32 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+
+.article{
+    display: flex;
+    background: white;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+.article .article-right{
+    display: flex;
+    width: 500px;
+    height: 300px;
+}
+
+.article .article-left img{
+    width: 300px;
+    height: 300px;
+}
+.article .article-bottom{
+    display: flex;
+    
+}
+.article .article-bottom img{
+    width: 50px;
+    height: 50px;
+    
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
