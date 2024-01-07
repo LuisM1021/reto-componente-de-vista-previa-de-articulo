@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
   
   <title>Challenge 2</title>
 
@@ -12,7 +14,8 @@
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-  <article class="article">
+  <div class="article-container">
+    <article class="article">
       <div class="article-left">
         <img src="images/drawers.jpg" alt="principalImage">
       </div>
@@ -27,23 +30,23 @@
           simple tips to help you make any room feel complete. 
         </p>
         <div class="bottom">
-          <img id="person" src="images/avatar-michelle.jpg" alt="avatar">
-          <p>Michelle Appleton 28 Jun 2020</p>
-          <img id="share-icon" src="images/icon-share.svg" alt="share">
+          <img class="person" src="images/avatar-michelle.jpg" alt="avatar">
+          <div class="person-data">
+            <p>Michelle Appleton</p>
+            <p>28 Jun 2020</p>
+          </div>
+          <div class="share-icon">
+            <img src="images/icon-share.svg" alt="share">
+          </div>
+          
 
         </div>
       </div>
-      <!-- <div class="item">hola</div>
-      <div class="item">hola</div>
-      <div class="item">hola</div> -->
-  </article>
-  
-
-  
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">LuisM1021</a>.
+    </article>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">LuisM1021</a>.
+    </div>
   </div>
 </body>
 </html>
