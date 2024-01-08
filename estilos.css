@@ -58,13 +58,13 @@ body{
 .person-data{
     margin-left: -130px;
 }
-.bottom div p:nth-child(1){
+.person-data p:nth-child(1){
     font-weight: bold;
     font-size: var(--font);
     color: var(--VeryDarkGrayishBlue);
     margin-bottom: 0;
 }
-.bottom div p:nth-child(2){
+.person-data p:nth-child(2){
     font-size: var(--font);
     color: var(--GrayishBlue);
     margin-top: 4px;
@@ -76,6 +76,41 @@ body{
     height: 35px;
     display: grid;
     place-items: center;
+    cursor: pointer;
+    border: none;
+}
+.share-panel-container{
+    background-color: var(--VeryDarkGrayishBlue);
+    width: 264px;
+    height: 50px;
+    position: absolute;
+    margin-bottom: 148px;
+    border-radius: 12px;
+    display: none;
+}
+.share-panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 45px;
+}
+.share-panel img{
+    width: 20px;
+    height: 20px;
+}
+.share-panel p{
+    color: var(--GrayishBlue);
+    margin-right: 25px;
+}
+.pico{
+    background-color: var(--VeryDarkGrayishBlue);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 80px; 
+    margin-top: 50px;
+    transform: rotate(45deg);
 }
 .attribution{
     position: absolute;
